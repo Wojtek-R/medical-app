@@ -21,5 +21,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
+Route::view('/play/quiz', 'play.quiz');
+
 Route::resource('glossary', \App\Http\Controllers\GlossaryController::class);
 Route::resource('play', \App\Http\Controllers\SelectGame::class);

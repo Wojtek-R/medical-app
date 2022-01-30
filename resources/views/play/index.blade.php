@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
+            {{ __('Play') }}
         </h2>
     </x-slot>
 
@@ -36,10 +36,10 @@
 
                         <div class="ml-12">
                             <div class="mt-2 text-sm">
-                                Play Quiz games to expand your knowledge about medical terminology.
+                                Play Quiz games to expand your general medical terms knowledge about medical terminology.
                             </div>
                         </div>
-                        <button style="background-color: #8732a8" class="hover:bg-blue-700 text-white font-bold py-2 px-4 rounded rounded ml-12 mt-6 w-48">
+                        <button onclick="window.location='{{ url("/play/quiz") }}'" style="background-color: #8732a8" class="hover:bg-blue-700 text-white font-bold py-2 px-4 rounded rounded ml-12 mt-6 w-48">
                             Start Quiz
                         </button>
                     </div>
