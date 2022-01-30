@@ -22,3 +22,4 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::resource('glossary', \App\Http\Controllers\GlossaryController::class);
+Route::resource('play', \App\Http\Controllers\SelectGame::class);

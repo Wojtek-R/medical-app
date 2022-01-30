@@ -1,7 +1,7 @@
 <div class="p-6 sm:px-20 bg-white border-b border-gray-200">
 
     <div class="mt-8 text-2xl">
-        Welcome to your Medical application!
+        Welcome to Medico application!
     </div>
 
     <div class="mt-6 text-gray-500">
@@ -45,7 +45,7 @@
                 Play games with medical terms to expand your knowledge.
             </div>
         </div>
-        <button style="background-color: #8732a8" class="hover:bg-blue-700 text-white font-bold py-2 px-4 rounded rounded ml-12 mt-6 w-48">
+        <button onclick="window.location='{{ url("/play") }}'" style="background-color: #8732a8" class="hover:bg-blue-700 text-white font-bold py-2 px-4 rounded rounded ml-12 mt-6 w-48">
             Play games
         </button>
     </div>

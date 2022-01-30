@@ -15,13 +15,13 @@
                             <table>
                                 <thead style="border-bottom: 1px solid lightgray;" class="bg-gray-50">
                                 <tr>
-                                    <th class="px-6 py-2 text-xs text-gray-500">
+                                    <th class="px-6 py-2 text-xs">
                                         ID
                                     </th>
-                                    <th class="px-6 py-2 text-xs text-gray-500">
+                                    <th class="px-6 py-2 text-xs">
                                         Term
                                     </th>
-                                    <th class="px-6 py-2 text-xs text-gray-500">
+                                    <th class="px-6 py-2 text-xs">
                                         Definition
                                     </th>
                                 </tr>

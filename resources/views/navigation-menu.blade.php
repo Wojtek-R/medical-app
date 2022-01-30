@@ -21,6 +21,11 @@
                         {{ __('Glossary') }}
                     </x-jet-nav-link>
                 </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('play.index') }}" :active="request()->routeIs('play.index')">
+                        {{ __('Play') }}
+                    </x-jet-nav-link>
+                </div>
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:ml-6">
