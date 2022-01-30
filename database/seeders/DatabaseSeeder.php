@@ -23,5 +23,9 @@ class DatabaseSeeder extends Seeder
             'email' => 'admin@app.medical.com',
             'password' => Hash::make('Password8'),
         ]);
+
+        $this->call([
+            TermsTableSeeder::class,
+        ]);
     }
 }
