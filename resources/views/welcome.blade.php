@@ -52,8 +52,8 @@
                 <p style="margin: 1rem; padding: 1rem;" class="border-t m"> Welcome to the Medico application! Here you will be able to learn difficult medical terms with ease!</p>
                 <div style=" display: flex; justify-content: center; flex-direction: row">
 
-                    <button style=" background-color: #8732a8; width: 10rem; margin: 3rem auto " class=" text-white font-bold py-2 px-4 rounded rounded">Login</button>
-                    <button style=" background-color: #8732a8; width: 10rem; margin: 3rem auto " class=" text-white font-bold py-2 px-4 rounded rounded">Register</button>
+                    <button onclick="window.location='{{ url("/login") }}'" style=" background-color: #8732a8; width: 10rem; margin: 3rem auto " class=" text-white font-bold py-2 px-4 rounded rounded">Login</button>
+                    <button onclick="window.location='{{ url("/register") }}'" style=" background-color: #8732a8; width: 10rem; margin: 3rem auto " class=" text-white font-bold py-2 px-4 rounded rounded">Register</button>
                 </div>
             </div>
         </div>
